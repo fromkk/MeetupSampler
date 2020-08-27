@@ -1,0 +1,17 @@
+platform :ios, '13.0'
+abstract_target 'Base' do
+  use_frameworks!
+
+  pod 'SwiftFormat/CLI'
+  pod 'SwiftLint'
+
+  target 'Demo' do
+  end
+
+  target 'Demo-dev' do
+    
+  end
+
+  target 'DemoTests' do
+  end
+end
