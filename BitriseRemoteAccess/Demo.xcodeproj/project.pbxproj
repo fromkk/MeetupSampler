@@ -13,7 +13,6 @@
 		ADB8DFFE24F7E1E8009748B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB8DFFC24F7E1E8009748B8 /* Main.storyboard */; };
 		ADB8E00024F7E1E9009748B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB8DFFF24F7E1E9009748B8 /* Assets.xcassets */; };
 		ADB8E00324F7E1E9009748B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB8E00124F7E1E9009748B8 /* LaunchScreen.storyboard */; };
-		ADB8E00B24F7E209009748B8 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB8E00A24F7E209009748B8 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		ADB8DFFF24F7E1E9009748B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB8E00224F7E1E9009748B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB8E00424F7E1E9009748B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADB8E00A24F7E209009748B8 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewViewController.swift; path = ../../../../../Downloads/NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				ADB8DFFF24F7E1E9009748B8 /* Assets.xcassets */,
 				ADB8E00124F7E1E9009748B8 /* LaunchScreen.storyboard */,
 				ADB8E00424F7E1E9009748B8 /* Info.plist */,
-				ADB8E00A24F7E209009748B8 /* NewViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 				ADB8DFFB24F7E1E8009748B8 /* ViewController.swift in Sources */,
 				ADB8DFF724F7E1E8009748B8 /* AppDelegate.swift in Sources */,
 				ADB8DFF924F7E1E8009748B8 /* SceneDelegate.swift in Sources */,
-				ADB8E00B24F7E209009748B8 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

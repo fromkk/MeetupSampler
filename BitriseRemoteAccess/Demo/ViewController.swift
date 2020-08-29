@@ -8,13 +8,20 @@
 
 import UIKit
 
+struct Item {
+    let id: Int
+    let name: String
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let items: [Item] = [
+            .init(id: 1, name: "hoge"),
+            .init(id: 2, name: "fuga")
+        ]
+        items.map(\.name).forEach { print($0) }
     }
-
-
 }
 
